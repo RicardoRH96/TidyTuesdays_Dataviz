@@ -178,8 +178,3 @@ p <- p1 + (p2 / p3)  +
 p
 
 ggsave("tidytuesday12.jpg", plot = p, height = 25, width = 35, units = "cm", dpi = 900)
-
-#try distribution plot
-(distributions1 <- ggplot(lat_f_names, aes(x = name, y = year)) +
-    geom_violin())
-
